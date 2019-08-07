@@ -7,7 +7,7 @@
         </div> 
       </div>
     </div>
-    <div class="pagination" v-if="count > 0">
+    <div class="pagination" v-if="count > 1">
       <div class="pagination-item"
           :class="getPaginationClass(i - 1)" 
           @click="go(i - 1)"

@@ -1,7 +1,7 @@
 <template>
   <section class="catalog-item is-flex-tablet" :class="classes">
     <div class="image-section">
-      <div class="image-content rellax" data-rellax-speed="5" data-rellax-percentage="0.5">
+      <div class="image-content" data-rellax-speed="4" data-rellax-percentage="0.5">
         <image-slider :images="item.images"/>
       </div>
     </div>

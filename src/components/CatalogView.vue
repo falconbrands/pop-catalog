@@ -13,7 +13,7 @@
 import { Component, Vue } from "vue-property-decorator"
 import CatalogItem from './CatalogItem.vue'
 import content from '../services/ContentService'
-import Rellax from 'rellax'
+// import Rellax from 'rellax'
 
 @Component({
   components: {
@@ -24,7 +24,7 @@ export default class CatalogView extends Vue {
   public catalog = content.catalog
 
   mounted () {
-    Vue.nextTick(() => new Rellax())
+    // Vue.nextTick(() => new Rellax())
   }
 
 }
