@@ -53,9 +53,11 @@ $image-overhang: 35px;
   max-width: 50%;
   display: flex;
   align-items: center;
+  margin-right: 50px;
 
   @media screen and (max-width: 768px) {
     max-width: none;
+    margin: 0 !important;
   }
 
   &::before {
@@ -80,15 +82,15 @@ $image-overhang: 35px;
 }
 
 .text-content {
-  padding: 60px 30px 80px 30px;
+  padding: 60px 0 80px 0;
 }
 
 .catalog-item.is-reverse {
   flex-direction: row-reverse;
 
-  .image-section::before {
-    right: 0;
-    left: $image-overhang;
+  .image-section {
+    margin-left: 50px;
+    margin-right: 0;
   }
 }
 </style>

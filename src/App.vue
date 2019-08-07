@@ -16,7 +16,7 @@ import authentication from './services/AuthenticationService'
 export default class App extends Vue {
 
   get view () {
-    return !authentication.state.authenticated ? CatalogView : LoginView
+    return authentication.state.authenticated ? CatalogView : LoginView
   }
 
 }
@@ -25,6 +25,8 @@ export default class App extends Vue {
 <style lang="scss">
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/base/_all.sass";
+@import "bulma/sass/form/_all.sass";
+@import "bulma/sass/elements/button.sass";
 // @import "swiper/dist/css/swiper.css";
 
 body {
@@ -46,13 +48,14 @@ body {
   line-height: .9;
   text-transform: uppercase;
   letter-spacing: -3px;
-  font-size: 4em;
+  font-size: 3em;
   padding-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {
   .title {
     font-size: 2.6em;
+    letter-spacing: -2px;
   }
 }
 

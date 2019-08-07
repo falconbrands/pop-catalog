@@ -13,7 +13,7 @@ export class AuthenticationService {
 
   public login = (password: string) => {
     try {
-      if (password !== 'password') {
+      if (password !== 'falconpop19') {
         throw new Error('Incorrect password.')
       }
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header">
-      [FALCON-LOGO]
+      <img src="../assets/logo.png" width="200"/>
     </header>
     <div class="items">
       <catalog-item v-for="(item, $index) in catalog" :item="item" :index="$index" :key="$index" v-once/>
@@ -32,9 +32,21 @@ export default class CatalogView extends Vue {
 
 <style lang="scss" scope>
 .header {
-  position: absolute;
+  position: relative;
   width: 100%;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+
+  img {
+    display: block;
+  }
+}
+
+.items {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0 30px;
 }
 </style>
