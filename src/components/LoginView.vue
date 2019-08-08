@@ -9,7 +9,7 @@
         <input placeholder="Enter password" class="input" type="password" v-model="password" />
       </div>
       <div class="field">
-        <button class="button is-fullwidth">
+        <button class="button is-primary is-fullwidth">
           Enter
         </button>
       </div>
@@ -57,5 +57,13 @@ export default class LoginView extends Vue {
 .logo {
   display: block;
   margin: 0 auto 30px auto;
+}
+
+.button {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 </style>

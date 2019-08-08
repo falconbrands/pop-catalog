@@ -21,7 +21,7 @@ export class ContentService {
       },
       {
         label: 'POP-00009',
-        title: 'CRU Four Eighth Box Display (White)',
+        title: 'CRU Eighth Box Display (White)',
         description: 'This stylish display features a white and clear gloss acrylic base accented by a gold mirror plex CRU logo. Perfect for featuring new strains, exclusive offers, or sale items. This display is designed to feature four CRU eighth boxes.',
         images: [
           require('../assets/POP-00009-1.png'),
@@ -51,7 +51,7 @@ export class ContentService {
       },
       {
         label: 'POP-00012',
-        title: 'CRU Four Eighth Box Display (Black)',
+        title: 'CRU Eighth Box Display (Black)',
         description: 'This stylish display features a black and clear gloss acrylic base accented by a gold mirror plex CRU logo. Perfect for featuring new strains, exclusive offers, or sale items. This display is designed to feature four CRU eighth boxes',
         images: [
           require('../assets/POP-00012-1.png'),

@@ -23,6 +23,8 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
+$primary: #ce9951;
+
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/base/_all.sass";
 @import "bulma/sass/form/_all.sass";
