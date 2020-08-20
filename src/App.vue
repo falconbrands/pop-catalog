@@ -10,9 +10,7 @@ import LoginView from './components/LoginView.vue'
 import CatalogView from './components/CatalogView.vue'
 import authentication from './services/AuthenticationService'
 
-@Component({
-
-})
+@Component
 export default class App extends Vue {
 
   get view () {
@@ -60,6 +58,4 @@ body {
     letter-spacing: -2px;
   }
 }
-
-
 </style>

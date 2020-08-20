@@ -11,7 +11,7 @@ export class ContentService {
     return [
       {
         label: 'POP-00008',
-        title: 'CRU Cartridge & Battery Display (White)',
+        title: 'Cartridge / Battery / Disposable Display (black/white)',
         description: 'This elegant display features a white and clear acrylic base with a gold mirror plex CRU logo. The base is designed to fit two CRU Cannabis battery boxes on either end, while the center slots are designated for each type of CRU Cartridge box. The smaller stations in front are designed to hold their respective cartridge and battery hardware. ',
         images: [
           require('../assets/POP-00008-1.png'),
@@ -31,7 +31,7 @@ export class ContentService {
       },
       {
         label: 'POP-00010',
-        title: 'CRU Pre-Roll or Disposable Vape Display (White)',
+        title: 'Disposable Vape and/or Infusion Preroll Display (black/white)',
         description: 'This versatile display can be used to hold six CRU Cannabis .75g pre-rolled joints or .3ml disposable vape pen boxes. Featuring a sturdy base trimmed in white acrylic with clear gloss embellishments and a gold mirror plex CRU logo accent.',
         images: [
           require('../assets/POP-00010-1.png'),
@@ -87,6 +87,16 @@ export class ContentService {
           require('../assets/POP-00015-1.png'),
           require('../assets/POP-00015-2.png'),
           require('../assets/POP-00015-3.png'),
+        ],
+      },
+      {
+        label: 'POP-00016',
+        title: 'CRU, Littles, & High Garden Standing Mat',
+        description: 'These extremely plush and static dissipative standing mats are made of nylon yard with SBR rubber borders and backing. Designed for high traffic in indoor applications and treated with StainStopper™ for easy cleaning, vacuum for dry soils and steam for wet soils. Perfect for placing in front of display cases, POS stations, or entrances. 35" W x 59" H x 5/16" D',
+        images: [
+          require('../assets/POP-00016-1.jpg'),
+          require('../assets/POP-00016-2.jpg'),
+          require('../assets/POP-00016-3.jpg'),
         ],
       },
       // {
