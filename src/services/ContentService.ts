@@ -11,7 +11,7 @@ export class ContentService {
     return [
       {
         label: 'POP-00008',
-        title: 'Cartridge / Battery / Disposable Display (black/white)',
+        title: 'Cartridge / Battery / Disposable Display (White)',
         description: 'This elegant display features a white and clear acrylic base with a gold mirror plex CRU logo. The base is designed to fit two CRU Cannabis battery boxes on either end, while the center slots are designated for each type of CRU Cartridge box. The smaller stations in front are designed to hold their respective cartridge and battery hardware. ',
         images: [
           require('../assets/POP-00008-1.png'),
@@ -31,7 +31,7 @@ export class ContentService {
       },
       {
         label: 'POP-00010',
-        title: 'Disposable Vape and/or Infusion Preroll Display (black/white)',
+        title: 'Disposable Vape and/or Infusion Preroll Display (White)',
         description: 'This versatile display can be used to hold six CRU Cannabis .75g pre-rolled joints or .3ml disposable vape pen boxes. Featuring a sturdy base trimmed in white acrylic with clear gloss embellishments and a gold mirror plex CRU logo accent.',
         images: [
           require('../assets/POP-00010-1.png'),
@@ -41,7 +41,7 @@ export class ContentService {
       },
       {
         label: 'POP-00011',
-        title: 'CRU Pre-Roll or Disposable Vape Display (Black)',
+        title: 'Disposable Vape and/or Infusion Preroll Display (Black)',
         description: 'This versatile display can be used to hold six CRU Cannabis .75g pre-rolled joints or .3ml disposable vape pen boxes. Designed with a sturdy base trimmed in black acrylic with clear gloss embellishments and a gold mirror plex CRU logo accent.',
         images: [
           require('../assets/POP-00011-1.png'),
@@ -61,7 +61,7 @@ export class ContentService {
       },
       {
         label: 'POP-00013',
-        title: 'CRU Cartridge & Battery Display (Black)',
+        title: 'Cartridge / Battery / Disposable Display (Black)',
         description: 'This elegant display features a black and clear acrylic base with a gold mirror plex CRU logo. The base is designed to fit two CRU Cannabis battery boxes on either end, the center slots are designated for each type of CRU Cartridge box. The smaller stations in front are designed to hold their respective cartridge and battery hardware.',
         images: [
           require('../assets/POP-00013-1.png'),
