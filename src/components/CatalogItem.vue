@@ -8,7 +8,14 @@
     <div class="text-section is-flex-tablet">
       <div class="text-content">
         <h5 class="label">{{ item.label }}</h5>
+        
         <h1 class="title">{{ item.title }}</h1>
+        <div class="attributes">
+          <div class="attribute" v-if="item.dimensions">
+            <span class="attribute-name">Dimensions: </span>
+            <span class="attribute-value" v-html="item.dimensions"></span>
+          </div>
+        </div>
         <div class="description" v-html="item.description"></div>
       </div>
     </div>
@@ -92,5 +99,12 @@ $image-overhang: 35px;
     margin-left: 50px;
     margin-right: 0;
   }
+}
+
+.attributes {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
 }
 </style>
