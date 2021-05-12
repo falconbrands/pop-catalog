@@ -11,7 +11,7 @@
     "bulma": "^0.7.5",
     "core-js": "^2.6.5",
     "rellax": "^1.10.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0"
